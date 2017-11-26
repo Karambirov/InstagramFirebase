@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AAE3758F1FCB0735004FAE8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */; };
 		AAE375911FCB0735004FAE8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE375901FCB0735004FAE8E /* ViewController.swift */; };
-		AAE375941FCB0735004FAE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE375921FCB0735004FAE8E /* Main.storyboard */; };
 		AAE375961FCB0735004FAE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE375951FCB0735004FAE8E /* Assets.xcassets */; };
 		AAE375991FCB0735004FAE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE375971FCB0735004FAE8E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		AAE3758B1FCB0735004FAE8E /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAE375901FCB0735004FAE8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AAE375931FCB0735004FAE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAE375951FCB0735004FAE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE375981FCB0735004FAE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAE3759A1FCB0735004FAE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,14 +52,21 @@
 		AAE3758D1FCB0735004FAE8E /* InstagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */,
 				AAE375901FCB0735004FAE8E /* ViewController.swift */,
-				AAE375921FCB0735004FAE8E /* Main.storyboard */,
+				AAE375A01FCB07CA004FAE8E /* Resources */,
+			);
+			path = InstagramFirebase;
+			sourceTree = "<group>";
+		};
+		AAE375A01FCB07CA004FAE8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */,
 				AAE375951FCB0735004FAE8E /* Assets.xcassets */,
 				AAE375971FCB0735004FAE8E /* LaunchScreen.storyboard */,
 				AAE3759A1FCB0735004FAE8E /* Info.plist */,
 			);
-			path = InstagramFirebase;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +130,6 @@
 			files = (
 				AAE375991FCB0735004FAE8E /* LaunchScreen.storyboard in Resources */,
 				AAE375961FCB0735004FAE8E /* Assets.xcassets in Resources */,
-				AAE375941FCB0735004FAE8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +148,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AAE375921FCB0735004FAE8E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAE375931FCB0735004FAE8E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AAE375971FCB0735004FAE8E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,7 +272,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDR3533VJS;
-				INFOPLIST_FILE = InstagramFirebase/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InstagramFirebase/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karambirov.InstagramFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDR3533VJS;
-				INFOPLIST_FILE = InstagramFirebase/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InstagramFirebase/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karambirov.InstagramFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
