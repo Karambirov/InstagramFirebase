@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA93F4D21FCB40D900A5850E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D11FCB40D900A5850E /* UIColor+Extensions.swift */; };
+		AA93F4D41FCB425700A5850E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D31FCB425700A5850E /* UIView+Extensions.swift */; };
 		AAE3758F1FCB0735004FAE8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */; };
 		AAE375911FCB0735004FAE8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE375901FCB0735004FAE8E /* ViewController.swift */; };
 		AAE375961FCB0735004FAE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE375951FCB0735004FAE8E /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA93F4D11FCB40D900A5850E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		AA93F4D31FCB425700A5850E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		AAE3758B1FCB0735004FAE8E /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAE375901FCB0735004FAE8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA93F4D01FCB40B900A5850E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA93F4D11FCB40D900A5850E /* UIColor+Extensions.swift */,
+				AA93F4D31FCB425700A5850E /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AAE375821FCB0735004FAE8E = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				AAE375901FCB0735004FAE8E /* ViewController.swift */,
+				AA93F4D01FCB40B900A5850E /* Extensions */,
 				AAE375A01FCB07CA004FAE8E /* Resources */,
 			);
 			path = InstagramFirebase;
@@ -141,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE375911FCB0735004FAE8E /* ViewController.swift in Sources */,
+				AA93F4D21FCB40D900A5850E /* UIColor+Extensions.swift in Sources */,
+				AA93F4D41FCB425700A5850E /* UIView+Extensions.swift in Sources */,
 				AAE3758F1FCB0735004FAE8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
