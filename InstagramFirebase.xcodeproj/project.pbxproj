@@ -11,6 +11,8 @@
 		AA93F4D21FCB40D900A5850E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D11FCB40D900A5850E /* UIColor+Extensions.swift */; };
 		AA93F4D41FCB425700A5850E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D31FCB425700A5850E /* UIView+Extensions.swift */; };
 		AA93F4D61FCB484E00A5850E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA93F4D51FCB484E00A5850E /* GoogleService-Info.plist */; };
+		AA93F4D81FCC92E000A5850E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D71FCC92E000A5850E /* MainTabBarController.swift */; };
+		AA93F4DA1FCC943A00A5850E /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D91FCC943A00A5850E /* UserProfileViewController.swift */; };
 		AAE3758F1FCB0735004FAE8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */; };
 		AAE375911FCB0735004FAE8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE375901FCB0735004FAE8E /* ViewController.swift */; };
 		AAE375961FCB0735004FAE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE375951FCB0735004FAE8E /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		AA93F4D11FCB40D900A5850E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		AA93F4D31FCB425700A5850E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		AA93F4D51FCB484E00A5850E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA93F4D71FCC92E000A5850E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		AA93F4D91FCC943A00A5850E /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		AAE3758B1FCB0735004FAE8E /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAE375901FCB0735004FAE8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,13 +97,15 @@
 			isa = PBXGroup;
 			children = (
 				AAE375901FCB0735004FAE8E /* ViewController.swift */,
+				AA93F4D71FCC92E000A5850E /* MainTabBarController.swift */,
+				AA93F4D91FCC943A00A5850E /* UserProfileViewController.swift */,
 				AA93F4D01FCB40B900A5850E /* Extensions */,
-				AAE375A01FCB07CA004FAE8E /* Resources */,
+				AAE375A01FCB07CA004FAE8E /* Supporting Files */,
 			);
 			path = InstagramFirebase;
 			sourceTree = "<group>";
 		};
-		AAE375A01FCB07CA004FAE8E /* Resources */ = {
+		AAE375A01FCB07CA004FAE8E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */,
@@ -107,7 +113,7 @@
 				AAE375971FCB0735004FAE8E /* LaunchScreen.storyboard */,
 				AAE3759A1FCB0735004FAE8E /* Info.plist */,
 			);
-			path = Resources;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE375911FCB0735004FAE8E /* ViewController.swift in Sources */,
+				AA93F4DA1FCC943A00A5850E /* UserProfileViewController.swift in Sources */,
 				AA93F4D21FCB40D900A5850E /* UIColor+Extensions.swift in Sources */,
+				AA93F4D81FCC92E000A5850E /* MainTabBarController.swift in Sources */,
 				AA93F4D41FCB425700A5850E /* UIView+Extensions.swift in Sources */,
 				AAE3758F1FCB0735004FAE8E /* AppDelegate.swift in Sources */,
 			);
@@ -380,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDR3533VJS;
-				INFOPLIST_FILE = "$(SRCROOT)/InstagramFirebase/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InstagramFirebase/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karambirov.InstagramFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -396,7 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDR3533VJS;
-				INFOPLIST_FILE = "$(SRCROOT)/InstagramFirebase/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InstagramFirebase/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karambirov.InstagramFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
