@@ -10,11 +10,13 @@
 		525F9679C8598C0E16C481DB /* Pods_InstagramFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C90B9F9092601806DBA58BE /* Pods_InstagramFirebase.framework */; };
 		AA93F4D21FCB40D900A5850E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D11FCB40D900A5850E /* UIColor+Extensions.swift */; };
 		AA93F4D41FCB425700A5850E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D31FCB425700A5850E /* UIView+Extensions.swift */; };
-		AA93F4D61FCB484E00A5850E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA93F4D51FCB484E00A5850E /* GoogleService-Info.plist */; };
 		AA93F4D81FCC92E000A5850E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D71FCC92E000A5850E /* MainTabBarController.swift */; };
-		AA93F4DA1FCC943A00A5850E /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D91FCC943A00A5850E /* UserProfileViewController.swift */; };
+		AA93F4DA1FCC943A00A5850E /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F4D91FCC943A00A5850E /* UserProfileController.swift */; };
+		AACD6AE62045D9C2006E0FE3 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACD6AE52045D9C2006E0FE3 /* UserProfileHeader.swift */; };
+		AACD6AE82045DA93006E0FE3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACD6AE72045DA93006E0FE3 /* User.swift */; };
+		AACD6AEA2045E114006E0FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACD6AE92045E114006E0FE3 /* ViewController.swift */; };
+		AACD6AEC2045E27A006E0FE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AACD6AEB2045E27A006E0FE3 /* GoogleService-Info.plist */; };
 		AAE3758F1FCB0735004FAE8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */; };
-		AAE375911FCB0735004FAE8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE375901FCB0735004FAE8E /* ViewController.swift */; };
 		AAE375961FCB0735004FAE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE375951FCB0735004FAE8E /* Assets.xcassets */; };
 		AAE375991FCB0735004FAE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE375971FCB0735004FAE8E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -25,12 +27,14 @@
 		7C90B9F9092601806DBA58BE /* Pods_InstagramFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA93F4D11FCB40D900A5850E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		AA93F4D31FCB425700A5850E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		AA93F4D51FCB484E00A5850E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA93F4D71FCC92E000A5850E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		AA93F4D91FCC943A00A5850E /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		AA93F4D91FCC943A00A5850E /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		AACD6AE52045D9C2006E0FE3 /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		AACD6AE72045DA93006E0FE3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AACD6AE92045E114006E0FE3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AACD6AEB2045E27A006E0FE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AAE3758B1FCB0735004FAE8E /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE3758E1FCB0735004FAE8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAE375901FCB0735004FAE8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAE375951FCB0735004FAE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE375981FCB0735004FAE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAE3759A1FCB0735004FAE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,11 +78,19 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		AACD6AE42045D992006E0FE3 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				AA93F4D91FCC943A00A5850E /* UserProfileController.swift */,
+				AACD6AE52045D9C2006E0FE3 /* UserProfileHeader.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
 		AAE375821FCB0735004FAE8E = {
 			isa = PBXGroup;
 			children = (
 				AAE3758D1FCB0735004FAE8E /* InstagramFirebase */,
-				AA93F4D51FCB484E00A5850E /* GoogleService-Info.plist */,
 				AAE3758C1FCB0735004FAE8E /* Products */,
 				AA7F86F71941C3D91C01A26F /* Pods */,
 				0922873873BE9531AFC5ACC6 /* Frameworks */,
@@ -96,11 +108,13 @@
 		AAE3758D1FCB0735004FAE8E /* InstagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				AAE375901FCB0735004FAE8E /* ViewController.swift */,
+				AACD6AE42045D992006E0FE3 /* UserProfile */,
 				AA93F4D71FCC92E000A5850E /* MainTabBarController.swift */,
-				AA93F4D91FCC943A00A5850E /* UserProfileViewController.swift */,
+				AACD6AE92045E114006E0FE3 /* ViewController.swift */,
 				AA93F4D01FCB40B900A5850E /* Extensions */,
 				AAE375A01FCB07CA004FAE8E /* Supporting Files */,
+				AACD6AE72045DA93006E0FE3 /* User.swift */,
+				AACD6AEB2045E27A006E0FE3 /* GoogleService-Info.plist */,
 			);
 			path = InstagramFirebase;
 			sourceTree = "<group>";
@@ -180,7 +194,7 @@
 			files = (
 				AAE375991FCB0735004FAE8E /* LaunchScreen.storyboard in Resources */,
 				AAE375961FCB0735004FAE8E /* Assets.xcassets in Resources */,
-				AA93F4D61FCB484E00A5850E /* GoogleService-Info.plist in Resources */,
+				AACD6AEC2045E27A006E0FE3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,11 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE375911FCB0735004FAE8E /* ViewController.swift in Sources */,
-				AA93F4DA1FCC943A00A5850E /* UserProfileViewController.swift in Sources */,
+				AACD6AE62045D9C2006E0FE3 /* UserProfileHeader.swift in Sources */,
+				AA93F4DA1FCC943A00A5850E /* UserProfileController.swift in Sources */,
 				AA93F4D21FCB40D900A5850E /* UIColor+Extensions.swift in Sources */,
+				AACD6AE82045DA93006E0FE3 /* User.swift in Sources */,
 				AA93F4D81FCC92E000A5850E /* MainTabBarController.swift in Sources */,
 				AA93F4D41FCB425700A5850E /* UIView+Extensions.swift in Sources */,
+				AACD6AEA2045E114006E0FE3 /* ViewController.swift in Sources */,
 				AAE3758F1FCB0735004FAE8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
